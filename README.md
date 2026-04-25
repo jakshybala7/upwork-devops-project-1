@@ -22,3 +22,10 @@ This project demonstrates how to deploy a simple Node.js application using Docke
 ```bash
 npm install
 npm start
+
+## RUN WITH DOCKER
+docker build -t upwork-devops-project-1 .
+docker run -d -p 3000:3000 upwork-devops-project-1
+
+## RUN WITH DOCKER COMPOSE 
+docker compose up -d
